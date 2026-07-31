@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoMarket</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>EcoMarket</h1>
+    <nav>
+      <ul>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#oferta">Oferta Especial</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+
+    <section id="productos">
+      <h2>Nuestros Productos</h2>
+      <div id="grid-productos" class="productos-container">
+        
+        <article class="card-producto">
+          <h3>Cepillo de dientes hecho de Bambú</h3>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmpq8cTF6UPb8gSj9dkam3hLyGB56eYhXQtL1oRiuO3YitCcWQfG6q84o&s=10" class="card-img-top" alt="Cepillo de  Bambú" width="400">
+          <p>Biodegradable y ecológico.</p>
+          <span class="precio">$3.50</span>
+        </article>
+
+        <article class="card-producto">
+          <h3>Bolsa de Tela Orgánica</h3>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvmjFB_1Cycoz-S17y92M6-cuUkN-c7IPUPDPIBacQTKjxwU5U-TcsqoY&s=10" class="card-img-top" alt="Bolsa Reutilizable" width="400">
+          <p>Ideal para compras del día a día.</p>
+          <span class="precio">$5.00</span>
+        </article>
+
+        <article class="card-producto">
+        <h3>Botella Reutilizable</h3>
+          <img src="https://imsanvi.com/wp-content/uploads/2025/10/JA3878-GREY.jpg" class="card-img-top" alt="Botella Reutilizable" width="400">
+          <p>Reutilizable y libre de BPA.</p>
+          <span class="precio">$15.00</span>
+        </article>
+
+        <article class="card-producto">
+          <h3>Jabón Artesanal</h3>
+          <img src="https://oilosophy.com.ec/wp-content/uploads/2025/08/productos-jabones-artesanales-en-barra-08.webp" class="card-img-top" alt="Jabón Artesanal" width="400">
+          <p>100% natural, vegetal e hidratante.</p>
+          <span class="precio">$4.00</span>
+        </article>
+
+        <article class="card-producto">
+          <h3>Pajitas de Acero</h3>
+          <img src="https://m.media-amazon.com/images/I/615W77AKx9L._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="Pajitas de acero" width="200">
+          <p>Set de 4 sorbetes con limpiador.</p>
+          <span class="precio">$6.00</span>
+        </article>
+      </div>
+
+      <div class="resumen-precios">
+        <p id="total-arreglo">Suma total del catálogo: Cargando...</p>
+        <p id="precio-descuento">Precio con descuento aplicado: Cargando...</p>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contáctanos</h2>
+      <form id="form-contacto" novalidate>
+        <div class="campo">
+          <label for="nombre">Nombre Completo:</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+        </div>
+
+        <div class="campo">
+          <label for="correo">Correo Electrónico:</label>
+          <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com">
+        </div>
+
+        <div class="campo">
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
+        </div>
+
+        <button type="submit" id="btn-enviar">Enviar</button>
+      </form>
+      <!-- Mensajes de validación de formulario -->
+      <div id="mensaje-validacion" class="estado-form"></div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 EcoMarket. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

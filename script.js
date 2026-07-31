@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
 
   const productos = [
-    { nombre: "Cepillo de Bambú", precio: 3.50 },
+    { nombre: "Cepillo de de dientes de Bambú", precio: 3.50 },
     { nombre: "Bolsa de Tela Orgánica", precio: 5.00 },
     { nombre: "Botella Térmica Inox", precio: 15.00 },
     { nombre: "Jabón Artesanal", precio: 4.00 },

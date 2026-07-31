@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   if (elPrecioDescuento) {
-    elPrecioDescuento.textContent = `Promoción especial en "${productoEjemplo.nombre}": $${precioConDescuento.toFixed(2)} (con ${porcentaje}% de descuento applied sobre $${productoEjemplo.precio.toFixed(2)}).`;
+    elPrecioDescuento.textContent = `Promoción especial en "${productoEjemplo.nombre}": $${precioConDescuento.toFixed(2)} (con ${porcentaje}% de descuento aplicado sobre $${productoEjemplo.precio.toFixed(2)}).`;
   }
 
   const btnPromocion = document.getElementById("btn-promocion");
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (btnPromocion && mensajePromocion) {
     btnPromocion.addEventListener("click", () => {
-      mensajePromocion.textContent = "¡Bienvenido a EcoMarket! Usa el código ECO10 para obtener un 10% adicional en tu primera compra.";
+      mensajePromocion.textContent = "¡Bienvenido a EcoMarket! Usa el código D0RA para obtener un 10% adicional en tu primera compra.";
     });
   }
 

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EcoMarket</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>EcoMarket - Productos Ecológicos</title>
+ 
 </head>
 <body>
 
@@ -18,11 +18,9 @@
       </ul>
     </nav>
   </header>
-
   <main>
 
-
-    <section id="productos">
+<section id="productos">
       <h2>Nuestros Productos</h2>
       <div id="grid-productos" class="productos-container">
         
@@ -61,11 +59,15 @@
           <span class="precio">$6.00</span>
         </article>
       </div>
-
       <div class="resumen-precios">
         <p id="total-arreglo">Suma total del catálogo: Cargando...</p>
         <p id="precio-descuento">Precio con descuento aplicado: Cargando...</p>
       </div>
+
+    <section id="oferta" class="seccion-interactiva">
+      <h2>Promociones del Mes</h2>
+      <button id="btn-promocion">Ver Promoción Especial</button>
+      <div id="mensaje-promocion" class="mensaje-dinamico"></div>
     </section>
 
     <section id="contacto">
@@ -88,12 +90,11 @@
 
         <button type="submit" id="btn-enviar">Enviar</button>
       </form>
-      <!-- Mensajes de validación de formulario -->
+      
       <div id="mensaje-validacion" class="estado-form"></div>
     </section>
 
   </main>
-
   <footer>
     <p>&copy; 2026 EcoMarket. Todos los derechos reservados.</p>
   </footer>
